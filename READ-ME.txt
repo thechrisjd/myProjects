@@ -1,0 +1,12 @@
+This a sample of some of the projects I've completed at uni.
+
+My current project is Dev chat. I site for developers of all kinds to talk and get help.
+Dev chat is based on the MERN stack.
+
+Venner was my latest university project. I had 2 weeks to create a social media site.
+The user can login/logout. Upload posts, see friends post, add/block friends and a real time chat system.
+The site uses plain php, Jquery and MySql for the db. For this project I got a 12.
+
+The car-site was also one of my latest projects. I user should be able to pick an air port, date/time for drop off and pick up.
+Then pick the car they'd like to hire, see the total price and got a confirmation email.
+Again this site uses plain php, Jquery and MySql for the db. For this project I got a 10. 
