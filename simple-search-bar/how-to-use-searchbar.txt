@@ -1,0 +1,5 @@
+sql database is called search_engine.
+
+sql table is called search_items.
+
+the row that is being searched in search_items table is called title. 

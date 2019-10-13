@@ -1,0 +1,7 @@
+<?php
+
+$con = MySQLi_connect('localhost', 'root', '', 'search_engine');
+
+if (MySQLi_connect_errno()) {
+   echo "Failed to connect to MySQL: " . MySQLi_connect_error();
+}

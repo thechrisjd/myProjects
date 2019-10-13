@@ -1,0 +1,19 @@
+header .background-image {
+  background-color: black;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  background-image:url('../images/bg-01.jpg');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100% 130%;
+  margin:0;
+  padding:0;
+}
+
+.input-space {
+  margin-top: 25px;
+}
+
+.button-space {
+  margin-top: 25px;
+}

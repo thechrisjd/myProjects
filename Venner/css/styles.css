@@ -1,0 +1,147 @@
+body {
+  overflow-x: hidden;
+}
+
+.background-image {
+  background-image: url("../images/adult-backlit-beach-1000445 (1).jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover;
+  width: 100vw;
+  height: 83em;
+  margin-top: -17em;
+}
+div p {
+  padding-top: 18em;
+  text-align: center;
+  color: white;
+}
+
+.text_fade {
+  position: relative;
+  margin: 0 auto;
+}
+.text_fade p {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bolder;
+  color: grey;
+  position: absolute;
+  margin: 0 0px 0px 30%;
+  width: 40%;
+}
+
+nav {
+  margin-top: -25em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 5em 0 5em;
+  font-size: 20px;
+  color: grey;
+}
+
+
+/*footer {
+  background-color: black;
+  margin-top: 21.5em;
+  padding-top: 20em;
+  text-align: center;
+}
+
+
+.social-media-links {
+  margin-top: 7em;
+  padding-top: 20em;
+  margin-top: -20em;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  margin: 0 2em;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.Copyright {
+  margin-top: -40em;
+}*/
+
+footer {
+  margin-top: 21.5em;
+  background-color: black;
+  text-align: center;
+}
+
+.social-media-links {
+  margin: 10em 0 -15em 0;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  margin: 0 2em;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}

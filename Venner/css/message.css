@@ -1,0 +1,176 @@
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+.sideTable {
+  overflow-y: hidden;
+  width: 300px;
+  height: 615px;
+  background: white;
+
+}
+.sideTable:hover{
+  overflow: scroll;
+  overflow-x: hidden;
+  width: 300px;
+  height: 615px;
+  background: white;
+}
+
+
+
+
+.navLink {
+  /*margin: 20px 10px 10px 60px;*/
+  padding: 20px;
+  border-bottom: 1px solid #dfe3ee;
+}
+.navLink:hover{
+  background-color: #dfe3ee;
+}
+
+.navLink img {
+  width:12%;
+  border-radius: 45%;
+
+
+}
+
+.fullName {
+  margin-left: 20px;
+  display: inline;
+}
+.name {
+  margin-left: 303px;
+
+}
+
+.name  h3{
+  position: absolute;
+  margin-top: -620px;
+  font-size: 18px;
+  font-weight: 300px;
+  background-color: white;
+  width: 400px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  padding-right: 63px;
+  padding-left: 350px;
+  margin-left: 0px;
+}
+
+
+
+
+.form {
+  position: absolute;
+  margin-left: 303px;
+  margin-top: -48px;
+}
+.form .inputBar {
+  width: 811px;
+  height: 47px;
+  border: none;
+  font-size: 12px;
+
+}
+
+
+.form .hide {
+  position: absolute;
+  margin-top: -100px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  overflow: hidden;
+  outline:none;
+  color: Transparent;
+}
+
+
+.scrollBar {
+  position: absolute;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 60%;
+  height: 500px;
+  background: white;
+  margin-left: 303px;
+  margin-top: -550px;
+}
+.scrollBar:hover {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.yourMessages {
+  display: inline-block;
+  overflow-wrap: break-word;
+  width: 30%;
+  border-radius: 10px;
+  text-align: right;
+  margin: 10px 10px 10px 500px;
+}
+
+.yourMessages .message {
+  text-align: left;
+  background-color: #0084FF;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 20px 10px 0px;
+  color: white;
+}
+ .time {
+  font-size: 12px;
+  color: grey;
+}
+
+.friendMessages {
+  display: inline-block;
+  overflow-wrap: break-word;
+  width: 40%;
+  border-radius: 10px;
+  text-align: left;
+  margin: 10px 0px 10px 0px;
+  margin-left: 0px;
+  margin-right: 500px;
+}
+
+/*.friendMessages .profilePic {
+  position: absolute;
+  margin-bottom: 0px;
+  margin-left: 15px;
+  margin-top: 40px;
+  width:10px;
+}*/
+.friendMessages img {
+  position: absolute;
+  width:5%;
+  border-radius: 45%;
+  margin-left: 12px;
+  margin-top: 30px;
+}
+.friendMessages .message {
+  text-align: left;
+  background-color: lightgrey;
+  border-radius: 10px;
+  padding: 10px;
+  margin:30px 20px 10px 0px;
+  margin-left: 65px;
+  color: black;
+}
+.friendMessages .time {
+  margin-left: 35px;
+  margin-bottom: 20px;
+}

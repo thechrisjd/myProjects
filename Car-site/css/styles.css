@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+  overflow-x: hidden;
+  /*background-color: #F0F0F0;*/
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  background-image: url("../images/background_4.jpg");
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-size: 1350px 800px;
+
+}
+
+/*--------------------------------top-----------------------------------------*/
+nav {
+  display: grid;
+  grid-template-columns: 200px 120px 110px 80px 1fr;
+  background-color: #004225;
+  height: 40px;
+
+}
+nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  border-left: 1px solid black;
+
+}
+.right {
+  padding-left: 750px;
+}
+nav .Logo {
+	color: white;
+	font-size: 22px;
+	font-family: 'Lobster', cursive;
+	margin-left: 20px;
+
+}
+/*--------------------------------top-----------------------------------------*/
+body .card {
+  width: 800px;
+  height: 450px;
+  background: transparent;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+  opacity: 0.92;
+}
+
+body .card_right {
+  width: 100%;
+  float: left;
+  background: white;
+  height: 450px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 0 10px 10px 0;
+}
+
+#frmSearch {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+h1 {
+  font-size: 30px;
+  color: #004225;
+  font-weight: bold;
+}
+h2 {
+  font-size: 24px;
+  color: #004225;
+  margin: 5px;
+  font-weight: 600;
+}
+#sPickupSearch {
+  width: 650px;
+  height: 40px;
+}
+.checkbox {
+  display: grid;
+  grid-template-columns: 30px 300px;
+  margin: 5px 0px;
+}
+#inpReturnAirport {
+  width: 650px;
+  height: 40px;
+}
+
+.btn {
+  margin: 50px 0 0 250px;
+  width: 125px;
+  height: 50px;
+  background-color: white;
+  color: #004225;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color: #004225;
+  color: white;
+}
+
+.time_grid {
+  display: grid;
+  grid-template-columns: 250px 250px 150px;
+}
+.return_grid {
+
+}
+
+#display {
+  position: absolute;
+  opacity: 1;
+  background-color: white;
+}
+#display ul {
+  width: 650px;
+  list-style-type: none;
+  border-left: 2px solid #3ca2c3 ;
+  border-right: 2px solid #3ca2c3 ;
+  border-bottom: 2px solid #3ca2c3 ;
+  font-size: 20px;
+}
+#ReturnDisplay {
+  position: absolute;
+  opacity: 1;
+  background-color: white;
+}
+
+#ReturnDisplay ul {
+  width: 650px;
+  list-style-type: none;
+  border-left: 2px solid #3ca2c3 ;
+  border-right: 2px solid #3ca2c3 ;
+  border-bottom: 2px solid #3ca2c3 ;
+  font-size: 20px;
+}
+/*                         bottum                                            */
+footer {
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 250px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-top: 613px;
+}
+h3 {
+  text-decoration: underline;
+  font-size: 20px;
+}
