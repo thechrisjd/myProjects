@@ -1,0 +1,10 @@
+{% extends "main/header.html" %}
+
+{% block content %}
+<!-- this page will render conditionally -->
+  {% if user.is_authenticated %}
+    <h1> Hello {{user.username}} </h1>
+  {% else %}
+    <h1>Home page</h1>
+  {% endif %}
+{% endblock %}

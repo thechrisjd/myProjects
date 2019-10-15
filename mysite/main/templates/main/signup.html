@@ -1,0 +1,14 @@
+<!-- because of block conent we need to extend the header file -->
+{% extends "main/header.html" %}
+
+<!-- this is my block contnent -->
+{% block content %}
+  <form method="post">
+    <!-- the csrf token stops cross site request forgery -->
+    {% csrf_token %}
+    <!-- this is the UserCreationForm module which I made in the view contexts -->
+    {{form}}
+    <br>
+    <button class = "btn" type="submit">SIGNUP</button>
+  </form>
+{% endblock %}
