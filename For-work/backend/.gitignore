@@ -1,0 +1,12 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+.env
+src/app/bot-campaigns/jobs/*
+
+src/app/bot-campaigns/graduateland/data/*
+src/app/bot-campaigns/jobindex/data/*
