@@ -1,0 +1,42 @@
+
+$font-grey: #707070;
+$font-size-sm: 15px;
+
+.slide {
+  width: 93vw;
+  max-width: 375px;
+  height: 100vw;
+  max-height: 380px;
+  background-color: white;
+  border-radius: 27px;
+  margin-top: auto;
+  overflow: hidden;
+  color: $font-grey;
+  font-size: $font-size-sm;
+  text-align: center;
+  font-size: 15px;
+  box-shadow: 0 0 6px 1px #d0d0d0;
+  background-repeat: no-repeat;
+  background-size: cover !important;
+
+  .logo {
+    background-color: white;
+    
+    img {
+      width: 70%;
+      height: 70%;
+      top: 15%;
+      position: relative;
+    }
+  }
+}
+
+
+.stage {
+  float: right;
+  position: relative;
+  top: -10%;
+  left: 6px;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}

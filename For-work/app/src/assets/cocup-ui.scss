@@ -1,0 +1,48 @@
+$color-1: #231f20;
+$color-2: #c61c0a;
+$color-3: #4f0000;
+$color-4: #ff4f01;
+$color-5: #7d91ad;
+$color-6: #dddae0;
+$text-color: #707070;
+$text-color-light: #ffffff;
+$color-gray-background: #eeeeee;
+
+$profile-main-color: #383F4C;
+$profile-second-color: #777F8D;
+$profile-third-color: #7B89D1;
+
+*, *::after, *::before{
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Montserrat;
+}
+
+.noscroll {
+  overflow-y: hidden !important;
+}
+
+//Profile setup start
+.v-btn.profile-setup-options{
+  margin: 6px 0;
+  width: 100%;
+}
+
+.profile-setup-title{
+  color: #231f20;
+}
+//Profile setup end
+
+
+@media(min-width: 500px){
+  html {
+    overflow-x: auto !important;
+  }
+  
+  body{
+    min-width: 1060px;
+  }
+  
+}

@@ -1,0 +1,15 @@
+{
+    "name": "cocup-campaign",
+    "version": "1.15.4",
+    "description": "Vue.js component for previewing our campaigns.",
+    "main": "Campaign.vue",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Eddie P",
+    "license": "ISC",
+    "dependencies": {
+        "swiper": "^4.4.6",
+        "vue-youtube-embed": "^2.2.1"
+    }
+}

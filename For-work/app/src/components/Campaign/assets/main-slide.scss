@@ -1,0 +1,117 @@
+.slide.main {
+  background-size: cover !important;
+  color: white;
+
+  .left-half {
+    $padding-left: 8%;
+    height: 100%;
+    width: 50% - $padding-left;
+    float: left;
+    background: rgb(117, 15, 16);
+    background: linear-gradient(209deg, rgba(117, 15, 16, 1) 0%, rgba(60, 8, 12, 1) 100%);
+    opacity: 0.8;
+    padding-top: 10%;
+    padding-left: $padding-left;
+    text-align: left;
+
+    .campaign-type {
+      .type-name {
+        position: relative;
+        bottom: 4px;
+        left: 3px;
+        font-size: 15px;
+        text-transform: capitalize;
+      }
+    }
+
+    .info-top {
+      width: 80%;
+      height: 15%;
+      margin-top: -5px;
+
+      .event-date {
+        float: left;
+        width: 60%;
+        height: 100%;
+        font-size: 60px;
+        font-weight: 700;
+        letter-spacing: -5px;
+      }
+
+      .event-month-year {
+        float: right;
+        width: 40%;
+        height: 100%;
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        text-align: left;
+        padding-top: 22px;
+      }
+    }
+
+    .info-bottom {
+      position: absolute;
+      bottom: 15%;
+      width: 35%;
+
+      .icon {
+        float: left;
+        height: 40px;
+      }
+
+      .text-line {
+        font-size: 9px;
+        line-height: 12px;
+      }
+    }
+  }
+
+  .right-half {
+    width: 50%;
+    height: 100%;
+    float: right;
+    right: 0;
+
+    .header {
+      display: flex;
+      position: relative;
+      height: 110px;
+      margin-top: 75%;
+      background: white;
+      opacity: 0.85;
+
+      .text {
+        padding-left: 35%;
+        padding-right: 10px;
+        margin: auto auto;
+        text-align: left;
+        font-weight: 400;
+        color: #616161; // color from Ioannis
+      }
+    }
+
+    #cto-button {
+      margin-top: 21%;
+    }
+  }
+
+  .logo {
+    border-radius: 100%;
+    overflow: hidden;
+    background-size: cover !important;
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    position: absolute;
+    top: calc(50% - 55px);
+    left: calc(50% - 55px);
+    
+    img {
+      position: relative;
+      top: 15%;
+      width: 70%;
+      height: auto;
+    }
+  }
+}

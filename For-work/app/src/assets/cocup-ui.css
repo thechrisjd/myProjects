@@ -1,0 +1,29 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Montserrat;
+}
+
+.noscroll {
+  overflow-y: hidden !important;
+}
+
+.v-btn.profile-setup-options {
+  margin: 6px 0;
+  width: 100%;
+}
+
+.profile-setup-title {
+  color: #231f20;
+}
+
+@media (min-width: 500px) {
+  html {
+    overflow-x: auto !important;
+  }
+  body {
+    min-width: 1060px;
+  }
+}

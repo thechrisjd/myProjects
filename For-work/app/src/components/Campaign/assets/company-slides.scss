@@ -1,0 +1,137 @@
+$font-grey: #707070;
+$font-size-sm: 15px;
+.slide {
+    width: 93vw;
+    max-width: 375px;
+    height: 100vw;
+    max-height: 380px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 1px 0px #969696;
+    margin: 20px auto;
+    overflow: hidden;
+    color: $font-grey;
+    font-size: $font-size-sm;
+    text-align: center;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+  
+    p {
+      font-size: $font-size-sm;
+    }
+  
+    .header {
+      width: 100%;
+  
+      .logo {
+        box-shadow: 0px 1px 4px 0px #9c9c9c;
+        border-radius: 100%;
+        overflow: hidden;
+        margin: auto;
+        position: relative;
+        top: 20px;
+        background-size: cover !important;
+        background-color: white;
+
+        img {
+          width: 70%;
+          height: 70%;
+          top: 15%;
+          position: relative;
+        }
+      }
+    }
+    .content {
+      font-size: 14px;
+      height: 100%;
+      width: 100%;
+    }
+  
+    .title {
+      font-size: 1rem;
+    }
+  }
+  
+  .slide.general {
+    height: 100vw;
+  
+    .header {
+      height: 15%;
+      background-size: cover !important;
+      .logo {
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        max-width: 110px;
+        max-height: 110px;
+        left: 50%;
+        margin-top: -12px;
+        margin-left: -40px;
+      }
+    }
+    .title {
+      margin-top: 5%;
+      font-size: 0.8rem;
+    }
+    .content {
+      margin: 6% auto;
+      width: 95%;
+      height: 60%;
+      display: flex;
+    }
+  }
+  
+  .slide.primary {
+    background-color: white !important;
+  
+    .header {
+      height: 28%;
+      background-size: cover !important;
+  
+      .logo {
+        width: 28vw;
+        max-width: 110px;
+        height: 28vw;
+        max-height: 110px;
+      }
+  
+    }
+    .title {
+      margin-top: 40px;
+    }
+    .content {
+      margin: 7% auto 0 auto;
+      height: 38%;
+  
+      .info-table {
+        width: 60%;
+        margin: auto;
+        text-align: left;
+        
+        .icon {
+          width: 25%;
+          text-align: center;
+          svg {
+            width: 20px;
+            height: 20px;
+          }
+          path {
+            fill: #666666;
+          }
+        }
+        .text {
+          max-width: 80px;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+  
+  .stage {
+    float: right;
+    position: relative;
+    top: -10%;
+    left: 6px;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
