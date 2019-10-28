@@ -1,4 +1,7 @@
-This a sample of some of the projects I've completed at uni.
+The For-work folder contains parts of three work projects I completed. 
+
+
+The rest of the folders are a sample of some of the projects I've completed at uni.
 
 My current project is Dev chat. I site for developers of all kinds to talk and get help.
 Dev chat is based on the MERN stack.
