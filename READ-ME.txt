@@ -1,10 +1,7 @@
-The For-work folder contains parts of three work projects I completed. 
+The Code from work folder contains approved parts of three work projects I completed. 
 
 
-The rest of the folders are a sample of some of the projects I've completed at uni.
-
-My current project is Dev chat. I site for developers of all kinds to talk and get help.
-Dev chat is based on the MERN stack.
+The Uni projects folder contains a sample of some of the projects I've completed at uni.
 
 Venner was my latest university project. I had 2 weeks to create a social media site.
 The user can login/logout. Upload posts, see friends post, add/block friends and a real time chat system.
