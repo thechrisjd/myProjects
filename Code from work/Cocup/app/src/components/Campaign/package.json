@@ -9,7 +9,7 @@
     "author": "Eddie P",
     "license": "ISC",
     "dependencies": {
-        "swiper": "^4.4.6",
+        "swiper": "^6.5.1",
         "vue-youtube-embed": "^2.2.1"
     }
 }
